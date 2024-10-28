@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/estyle.css">
+    <title>DESAFIO 2</title>
+</head>
+<body>
+    <div class="portada">
+        <img class="borde" class="portada_imagen" id="hunterx" src="./assets/img/hunterx.jpg" height="400px">
+    </div>
+
+    <div>
+        <h2 class="titulo"> puedes llevar maximo 10 tickets!!! </h2>
+        <ul class="ejercicio2">
+            <li> <img class="img_honterx" src="./assets/img/gon.jpg" height="400px" width="400px">
+                <label for="cantidad1"></label>
+                <input type="number" name="cantidad" id="cantidad1" min="0">
+            </li>
+            <li> <img class="img_honterx" src="./assets/img/killua.jpg" height="400px" width="400px" alt="">
+                <label for="cantidad2"></label>
+                <input type="number" name="cantidad" id="cantidad2" min="0">
+            </li>
+            <li> <img src="./assets/img/hisoka.jpg" height="400px" width="400px" alt="">
+                <label for="cantidad3"></label>
+                <input type="number" name="cantidad" id="cantidad3" min="0">
+            </li>
+        </ul>
+        <button class="boton_comprar" id="boton_verificador"> comprar </button>
+        <p class="respuesta" id="respuesta"> lleva tus tickets!!! </p>
+    </div>
+
+    <div>
+        <h2 class="titulo"> INGRESA EL PASSWORD </h2>
+        <form id="formulario_password">
+            <label for="parte1"></label>
+            <select name="parte1" id="parte1">
+                <option value="">seleccione</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <label for="parte2"></label>
+            <select name="parte2" id="parte2">
+                <option value="">seleccione</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <label for="parte3"></label>
+            <select name="parte3" id="parte3">
+                <option value="">seleccione</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </form>
+        <button class="verificar_password" id="verificar_password"> enviar </button>
+        <h3 id="respuesta_password"> vamos a ver.....</h3>
+    </div>
+    
+    <script src="./assets/ejercicios.js"></script>
+</body>
+</html>

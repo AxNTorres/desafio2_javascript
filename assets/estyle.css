@@ -1,0 +1,41 @@
+.portada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portada_imagen{
+    margin: 20px;
+    }
+.borde{
+    border: solid 5px #3ea3af;
+}
+
+.titulo, .respuesta{
+    height: 30px;
+    margin-left: 30px;
+    color: #3ea3af;
+}
+.ejercicio2{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+}
+.boton_comprar, .verificar_password{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #9fd9b3;
+    border: none;
+    border-top: solid 2px #3ea3af;
+    box-shadow: 0 4px 6px -2px #9fd9b3;
+    cursor: pointer;
+    margin-top: 50px;
+    }
+.respuesta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#formulario_password{
+    gap: 20px;
+    display: flex;
+    }
